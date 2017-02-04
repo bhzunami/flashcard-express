@@ -1,0 +1,17 @@
+{
+    "appenders": [
+        {"type": "file",
+        "filename": "logfile_test.log",
+        "maxLogSize":20480,
+        "backups": 3,
+        "category": ["Server", "App", "Controller"]}
+    ],
+    "levels": {
+        "[all]": "ERROR",
+        "Server": "INFO",
+        "App": "DEBUG",
+        "Controller": "DEBUG"
+    },
+    "replaceConsole": true
+
+}
